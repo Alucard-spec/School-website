@@ -22,9 +22,10 @@ const Home = () => {
     <Carousel/>
     </div>
     {/*News and Events */}
-    <div className='p-2 md:mx-5 mt-7 flex flex-col md:flex-row gap-3 justify-evenly lg:bg-yellow-200'>
-    <Dates/>
+    <div className='p-2 md:mx-5 mt-7 md:flex   md:gap-3 md:space-y-0 space-y-4 justify-evenly '>
     <NewsEvents/>
+    <Dates/>
+    
     
     </div>
     </div>

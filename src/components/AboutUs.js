@@ -7,9 +7,9 @@ const AboutUs = () => {
       <img src={require("./elements/images/teacher-min.jpg")} alt="" className=' md:w-[100%] md:h-[100%] md:object-cover max-h-[500px]'/>
       
       <div className='p-5 text-sm md:text-xl lg:text-2xl  font-bold italic rounded-xl md:absolute top-0 z-10 md:mx-20 flex items-center text-white '> <div>Founded in 1995, Sunrise Academy has grown from a small community school to a renowned institution known for its commitment to academic excellence and student development. Over the years, we have expanded our campus and introduced innovative teaching methodologies to keep pace with the changing educational landscape.
-        <br />
-        <div><span className='text-yellow-400 text-3xl'>Our Vision</span> <p>To be a leading educational institution that empowers students to excel academically, creatively, and socially, preparing them to be responsible global citizens.</p></div>
-        <div><span className='text-yellow-400 text-3xl '>Our Mission</span> <p>To provide a high-quality education that inspires students to pursue knowledge, develop critical thinking skills, and engage in lifelong learning while promoting values of respect, integrity, and community service.</p></div></div>
+        
+        <div><span className='text-yellow-400 '>Our Vision</span> <p>To be a leading educational institution that empowers students to excel academically, creatively, and socially, preparing them to be responsible global citizens.</p></div>
+        <div><span className='text-yellow-400  '>Our Mission</span> <p>To provide a high-quality education that inspires students to pursue knowledge, develop critical thinking skills, and engage in lifelong learning while promoting values of respect, integrity, and community service.</p></div></div>
          </div>
       <div className='w-[100%] h-[100%] md:absolute top-0 left-0 bg-black opacity-70'></div></div>
       <div className='mt-5 lg:flex mx-5'>

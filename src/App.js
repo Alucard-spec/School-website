@@ -8,6 +8,7 @@ import { FaRegSun } from "react-icons/fa6";
 import Navbar from './components/elements/Navbar';
 import { FaPhoneAlt } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
+import Curriculum from "./components/Curriculum";
 
 function App() {
   return (
@@ -41,7 +42,7 @@ function App() {
     <Routes>
     <Route path="/" element={<Home/>}/>
     <Route path="/aboutUs" element={<AboutUs/>}/>
-
+    <Route path="/curriculum" element={<Curriculum/>}/>
     </Routes>
     
     </div>
