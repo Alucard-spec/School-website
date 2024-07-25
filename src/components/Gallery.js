@@ -58,7 +58,7 @@ const Gallery = () => {
             console.log(images);
         }} className='font-semibold bg-yellow-200 p-1 rounded-lg md:p-3 md:text-xl md:font-bold md:hover:scale-110 transition-all'>Filter</button>
         </div><br /><br />
-        <div className='flex flex-wrap'>
+        <div className='flex flex-wrap gap-4'>
         {images.map((img)=>{
             return(
                 <Image path={img.path} key={img.id}/>
