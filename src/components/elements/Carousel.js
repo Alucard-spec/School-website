@@ -26,6 +26,7 @@
             className="flex w-[100%] "
             animate={{ x: `-${currentIndex * 100}%` }}
             transition={{ duration: 0.2}}
+            
           >
            <div className="w-[100%] md:px-5 shrink-0 h-[200px] sm:h-[300px] md:h-[500px]" >
                 <img className='w-[100%] h-[100%] object-cover' src={require(`${images.at(0)}`)} alt={`Slide 1`} />
