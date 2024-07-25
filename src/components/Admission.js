@@ -183,8 +183,9 @@ const Admission = () => {
           />
         </div>
         <div>
-          Contact Number (Father/Guardian):
-          <input
+            <span className='font-bold'> Contact Number (Father/Guardian):
+            </span>
+                   <input
             type="text"
             name="fatherContact"
             value={formData.fatherContact}
@@ -193,7 +194,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Contact Number (Mother/Guardian):
+            <span className='font-bold'>
+          Contact Number (Mother/Guardian): </span>
           <input
             type="text"
             name="motherContact"
@@ -203,7 +205,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Email Address:
+            <span className='font-bold'>
+          Email Address: </span>
           <input
             type="email"
             name="email"
@@ -213,7 +216,7 @@ const Admission = () => {
           />
         </div>
         <div className='flex flex-wrap gap-2'> 
-          Residential Address:
+          <span className='font-bold'>Residential Address: </span>
           <input
             type="text"
             name="houseNumber"
@@ -263,7 +266,8 @@ const Admission = () => {
         <h2 className='mb-2 font-semibold text-lg md:text-xl '>Previous Academic Details</h2>
         <div className='flex flex-wrap gap-10'>
         <div>
-          Name of the Previous School:
+            <span className='font-bold'>
+          Name of the Previous School: </span>
           <input
             type="text"
             name="previousSchool"
@@ -273,7 +277,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Address of the Previous School:
+        <span className='font-bold'>
+          Address of the Previous School: </span>
           <input
             type="text"
             name="previousSchoolAddress"
@@ -283,7 +288,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Last Grade/Standard Completed:
+            <span className='font-bold'>
+          Last Grade/Standard Completed: </span>
           <input
             type="text"
             name="lastGrade"
@@ -293,7 +299,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Academic Performance (Grades/Percentage):
+            <span className='font-bold'>
+          Academic Performance (Grades/Percentage): </span>
           <input
             type="text"
             name="academicPerformance"
@@ -310,7 +317,7 @@ const Admission = () => {
         <h2 className='mb-2 font-semibold text-lg md:text-xl '>Admission Details</h2>
         <div className='flex flex-wrap gap-10'>
         <div>
-          Grade/Standard for which Admission is Sought:
+          <span className='font-bold'>Grade/Standard for which Admission is Sought: </span>
           <input
             type="text"
             name="gradeSought"
@@ -320,7 +327,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Second Language Preference (Hindi/French/Spanish):
+            <span className='font-bold'>
+          Second Language Preference (Hindi/French/Spanish): </span>
           <input
             type="text"
             name="secondLanguage"
@@ -338,7 +346,7 @@ const Admission = () => {
         <h2 className='mb-2 font-semibold text-lg md:text-xl '>Medical Information</h2>
         <div className='flex flex-wrap gap-10'>
         <div>
-          Blood Group:
+            <span className='font-bold'>Blood Group: </span>
           <input
             type="text"
             name="bloodGroup"
@@ -348,7 +356,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Any Medical Conditions/Allergies:
+            <span className='font-bold'>
+          Any Medical Conditions/Allergies: </span>
           <input
             type="text"
             name="medicalConditions"
@@ -358,7 +367,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Emergency Contact Person:
+            <span className='font-bold'>
+          Emergency Contact Person: </span>
           <input
             type="text"
             name="emergencyContactPerson"
@@ -368,7 +378,8 @@ const Admission = () => {
           />
         </div>
         <div>
-          Emergency Contact Number:
+            <span className='font-bold'>
+          Emergency Contact Number: </span>
           <input
             type="text"
             name="emergencyContactNumber"
@@ -454,7 +465,7 @@ const Admission = () => {
 
         <h2 className='mb-2 font-semibold text-lg md:text-xl '>Declaration</h2>
         <div className='flex flex-wrap gap-10'>
-        <div className='font-semibold'>
+        <div className='font-bold'>
           I declare that the information provided is true and correct to the best of my knowledge. I understand that any false information may result in the cancellation of the admission. 
           <input type="checkbox" />
         </div>
@@ -473,7 +484,7 @@ const Admission = () => {
         </div>
         </div>
 
-        <button type="submit" className='bg-black text-yellow-200 p-2 rounded-lg w-fit mx-auto block'>Submit</button>
+        <button type="submit" className='bg-black text-yellow-200 p-2 rounded-lg w-fit mx-auto block hover:scale-110 transition-all'>Submit</button>
       </form>
     </div>
   );

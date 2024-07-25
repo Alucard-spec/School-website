@@ -14,7 +14,7 @@ import Admission from "./components/Admission";
 function App() {
   return (
     <div className="">
-      <div className='mb-5'>
+      <div className='mb-5 mx-5'>
     {/* Name of the school */}
     <div className='text-2xl md:text-4xl 
     w-fit 
