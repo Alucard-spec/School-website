@@ -2,6 +2,11 @@ import React from 'react'
 import { FaRegSun } from "react-icons/fa6";
 import Carousel from './elements/Carousel';
 import Navbar from './elements/Navbar';
+import { FaPhoneAlt } from "react-icons/fa";
+import { SiGmail } from "react-icons/si";
+import NewsEvents from './elements/NewsEvents';
+import Dates from './elements/Dates';
+
 const Home = () => {
 
     
@@ -22,6 +27,15 @@ const Home = () => {
     <div className='mt-4'>
     <Navbar/>
     </div>
+
+    {/* Contact info */}
+    <div className='flex text-lg my-3 gap-2 md:flex-row lg:gap-5 justify-evenly flex-col text-center'>
+     <div className='flex items-center gap-1'><FaPhoneAlt/> +201 878 734 383</div>
+     <div className='flex items-center gap-1'><FaPhoneAlt/> +201 174 234 233</div>
+     <div className='flex items-center gap-1'>
+     <SiGmail color='red'/> sunrise.academy@gmail.com
+     </div>
+    </div>
     <div className='mt-4'>
       
       
@@ -29,12 +43,12 @@ const Home = () => {
         {/* Carousel */}
     <Carousel/>
     </div>
-    {/* Brief Description */}
-
-    <div>
-    Sunrise Academy is dedicated to nurturing young minds and fostering academic excellence, creativity, and holistic development. We provide a vibrant learning environment that encourages students to explore their passions and achieve their fullest potential.
+    {/*News and Events */}
+    <div className='p-2 md:mx-5 mt-7 flex flex-col md:flex-row gap-3 justify-evenly lg:bg-yellow-200'>
+    <Dates/>
+    <NewsEvents/>
+    
     </div>
-
     </div>
   )
 }

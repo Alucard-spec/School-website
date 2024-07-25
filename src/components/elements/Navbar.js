@@ -10,7 +10,7 @@ const Navbar = () => {
     }
 
   return (
-    <div>
+    <div className='md:mx-5'>
 
         {/* For Desktop */}
         <div className='bg-yellow-200
@@ -28,7 +28,7 @@ const Navbar = () => {
             <div className='hover:text-white hover:bg-black transition-all duration-75 p-4 cursor-pointer  rounded-xl'>About Us</div>
             <div className='hover:text-white hover:bg-black transition-all duration-75 p-4  cursor-pointer rounded-xl'>Curriculum</div>
             <div className='hover:text-white hover:bg-black transition-all duration-75 p-4 cursor-pointer  rounded-xl'>Admission</div>
-            <div className='hover:text-white hover:bg-black transition-all duration-75 p-4 cursor-pointer  rounded-xl'>Contact</div>
+            <div className='hover:text-white hover:bg-black transition-all duration-75 p-4 cursor-pointer  rounded-xl'>Gallery</div>
 
 
         </div>
