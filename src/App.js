@@ -9,6 +9,7 @@ import Navbar from './components/elements/Navbar';
 import { FaPhoneAlt } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import Curriculum from "./components/Curriculum";
+import Admission from "./components/Admission";
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
     <Route path="/" element={<Home/>}/>
     <Route path="/aboutUs" element={<AboutUs/>}/>
     <Route path="/curriculum" element={<Curriculum/>}/>
+    <Route path="/admission" element={<Admission/>}/>
     </Routes>
     
     </div>

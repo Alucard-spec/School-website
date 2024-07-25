@@ -33,7 +33,7 @@ const Navbar = () => {
 
             </div></Link>
             <Link to="/curriculum"><div className='hover:text-white hover:bg-black transition-all duration-75 p-4  cursor-pointer rounded-xl'>Curriculum</div></Link>
-            <div className='hover:text-white hover:bg-black transition-all duration-75 p-4 cursor-pointer  rounded-xl'>Admission</div>
+            <Link to="/admission"><div className='hover:text-white hover:bg-black transition-all duration-75 p-4 cursor-pointer  rounded-xl'>Admission</div></Link>
             <div className='hover:text-white hover:bg-black transition-all duration-75 p-4 cursor-pointer  rounded-xl'>Gallery</div>
 
 
@@ -57,7 +57,7 @@ const Navbar = () => {
         <Link to="/" ><div className='mx-auto w-fit' onClick={mobileNav}>Home</div></Link>
         <Link to="/aboutUs"><div className='mx-auto w-fit' onClick={mobileNav}>About Us</div></Link>
             <Link to="/curriculum"><div className='mx-auto w-fit' onClick={mobileNav}>Curriculum</div></Link>
-            <div className='mx-auto w-fit' onClick={mobileNav}>Admission</div>
+            <Link to="/admission"><div className='mx-auto w-fit' onClick={mobileNav}>Admission</div></Link>
             <div className='mx-auto w-fit' onClick={mobileNav}>Gallery</div>
 
         </div>

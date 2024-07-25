@@ -2,19 +2,20 @@ import React from 'react'
 
 const Curriculum = () => {
   return (
-    <div className='mx-5'>
+    <div className='mx-5 mb-5'>
        <div className='text-xl md:text-2xl font-bold w-fit border-b-4 border-yellow-400'>Curriculum Information</div> 
        
         <div>
-            <table className='border-separate border-spacing-5 mx-auto md:text-lg'>
+            <table className='border-separate border-spacing-y-5 border-spacing-1 md:border-spacing-5 mx-auto md:text-lg'>
                 <tr className='bg-red-200'>
                 <th>Standard</th>
-                <th className=' w-[600px]'>Subjects</th>
+                <th className=' md:w-[600px]'>Subjects</th>
                 </tr>
-                <tr>
+                <tr >
                     <th>Primary (Grades 1-5)</th>
                     <td>English, Mathematics, Science, Social Studies, Physical Education, Art, Music</td>
                 </tr>
+                
                 <tr>
                     <th>Secondary (Grade 6-10)</th>
                     <td>English, Mathematics, Science (Physics, Chemistry, Biology), Social Studies (History, Geography, Civics), Computer Science, Physical Education, Art, Music, Second Language (Hindi/French/Spanish)</td>
@@ -28,9 +29,9 @@ const Curriculum = () => {
         </div>
         <br />
         <div >
-        <div className='text-xl md:text-2xl font-bold w-fit border-b-4 border-yellow-400'>Student Life</div> 
-        <div className='md:text-lg w-[800px] mx-auto'>
-            <ul className='space-y-5 list-disc'>
+        <div className='text-xl md:text-2xl mb-3 font-bold w-fit border-b-4 border-yellow-400'>Student Life</div > 
+        <div className='md:text-lg max-w-[800px] mx-auto'>
+            <ul className='space-y-5 list-disc list-inside'>
                 <li>
                     <span className='font-bold '>Extracurricular Activities</span>:
                     Drama club, Debate club, Science club, Art club, Music band
@@ -53,9 +54,9 @@ const Curriculum = () => {
         </div>
         <br />
         <div >
-        <div className='text-xl md:text-2xl font-bold w-fit border-b-4 border-yellow-400'>Achievements and Accolades</div> 
-        <div className='md:text-lg w-[800px] mx-auto'>
-            <ul className='space-y-5 list-disc'>
+        <div className='text-xl md:text-2xl font-bold w-fit border-b-4 border-yellow-400 mb-3'>Achievements and Accolades</div> 
+        <div className='md:text-lg max-w-[800px] mx-auto'>
+            <ul className='space-y-5 list-disc list-inside'>
                 <li>
                 Students have won national and international science competitions
                 </li>
