@@ -7,7 +7,7 @@ const Curriculum = () => {
        
         <div>
             <table className='border-separate border-spacing-y-5 border-spacing-1 md:border-spacing-5 mx-auto md:text-lg'>
-                <tr className='bg-red-200'>
+                <tr className='bg-yellow-200'>
                 <th>Standard</th>
                 <th className=' md:w-[600px]'>Subjects</th>
                 </tr>

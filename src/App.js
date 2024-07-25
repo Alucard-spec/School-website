@@ -10,6 +10,7 @@ import { FaPhoneAlt } from "react-icons/fa";
 import { SiGmail } from "react-icons/si";
 import Curriculum from "./components/Curriculum";
 import Admission from "./components/Admission";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -45,6 +46,7 @@ function App() {
     <Route path="/aboutUs" element={<AboutUs/>}/>
     <Route path="/curriculum" element={<Curriculum/>}/>
     <Route path="/admission" element={<Admission/>}/>
+    <Route path="gallery" element={<Gallery/>}/>
     </Routes>
     
     </div>
